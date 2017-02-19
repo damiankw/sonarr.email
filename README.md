@@ -1,7 +1,10 @@
 # sonarr.email
 
-A method of emailing everything that is on the calendar for a specific day.
+A little script to email everything that's on your calendar for the day it's ran (00:00-23:59), including the time it airs, whether or not it's already downloaded, the quality and original release name.
 
-This will also email you the status, Completed / Waiting.
+I have this on a cron for 5:00pm, so when I get home from work it's on my phone ready.
 
-Cron this for ~5pm when you're due home from work, and it will be a good indication + reminder that there's things to watch. Great for people like me who don't think about specific daily TV shows unless I'm prompted.
+# Configuration
+
+Just edit the email.php with your list of Sonarr's and API's
+
